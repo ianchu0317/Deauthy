@@ -64,7 +64,7 @@ ____
 
 
 ## Credits
-	- chenian317@gmail.com (Ian Chen)
+	* chenian317@gmail.com (Ian Chen)
 
 
 All glory to Jesus Christ Lord of Lords and King of Kings
