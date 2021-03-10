@@ -11,15 +11,23 @@ ____
 ## Instalation
 clone the repository
 > git clone 
+
+
 > cd Deauthy
+
+
 Execute the configuration script
 > chmod +x install.sh
+
+
 > sudo bash install.sh
+
+
 Execute the script
 > sudo python3 Deauthy
 
 
-**To exit the script when running, use CTRL + C**
+**To exit the script while running, use CTRL + C**
 
 
 ____
