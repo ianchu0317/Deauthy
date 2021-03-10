@@ -4,7 +4,7 @@
 I'm not responsible for how you use this code. If you reference / download / do anything with this code, you accept that it is your responsibility entirely. I'm not liable / responsible / accountable for anything that you are / would / might / will do by using this code.
 
 
-Running DOS attacks in not owned networks is illegal. Please use this script in owned networks. Plz don't hack your neighbours.
+**Running DOS attacks in not owned networks is illegal.** Please use this script in owned networks. Plz don't hack your neighbours.
 
 
 ____
@@ -49,7 +49,7 @@ ____
 
 
 ### Supported platforms
-- Kali Linux
+- Kali Linux / Parrot OS / Black Arch
 - Ubuntu
 - Debian
 
