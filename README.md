@@ -1,6 +1,8 @@
 # Deauthy
 
-Warning: I'm not responsible for how you use this code. If you reference / download / do anything with this code, you accept that it is your responsibility entirely. I'm not liable / responsible / accountable for anything that you are / would / might / will do by using this code.
+## Warning
+I'm not responsible for how you use this code. If you reference / download / do anything with this code, you accept that it is your responsibility entirely. I'm not liable / responsible / accountable for anything that you are / would / might / will do by using this code.
+
 
 Running DOS attacks in not owned networks is illegal. Please use this script in owned networks
 
@@ -8,7 +10,7 @@ Running DOS attacks in not owned networks is illegal. Please use this script in 
 ____
 
 
-## Instalation
+### Instalation
 clone the repository
 > git clone 
 
@@ -33,7 +35,7 @@ Execute the script
 ____
 
 
-## Explication and theory
+### Explication and theory
 This is a script running deauthentication DOS attack to wireless networks.
 
 
