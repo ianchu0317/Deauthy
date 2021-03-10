@@ -1,0 +1,51 @@
+#!/usr/bin/env python3
+from os import getuid, system
+from colorama import init, Fore, Style, Back
+
+init(autoreset=True)
+
+logo = '''
+ _______                                   __      __                 
+/       \                                 /  |    /  |                
+$$$$$$$  |  ______    ______   __    __  _$$ |_   $$ |____   __    __ 
+$$ |  $$ | /      \  /      \ /  |  /  |/ $$   |  $$      \ /  |  /  |
+$$ |  $$ |/$$$$$$  | $$$$$$  |$$ |  $$ |$$$$$$/   $$$$$$$  |$$ |  $$ |
+$$ |  $$ |$$    $$ | /    $$ |$$ |  $$ |  $$ | __ $$ |  $$ |$$ |  $$ |
+$$ |__$$ |$$$$$$$$/ /$$$$$$$ |$$ \__$$ |  $$ |/  |$$ |  $$ |$$ \__$$ |
+$$    $$/ $$       |$$    $$ |$$    $$/   $$  $$/ $$ |  $$ |$$    $$ |
+$$$$$$$/   $$$$$$$/  $$$$$$$/  $$$$$$/     $$$$/  $$/   $$/  $$$$$$$ |
+                                                            /  \__$$ |
+                                                            $$    $$/ 
+                                                             $$$$$$/
+'''
+credits = '''
+						Creator: Ian Chen
+							Github: ianchu0317
+								Contact: chenian317@gmail.com
+'''
+system("clear")
+print(Fore.GREEN + Style.BRIGHT +  logo)
+print(Fore.BLUE + Style.DIM + credits)
+
+def check_root():
+	if getuid() == 0:
+		return True
+	else:
+		return False
+
+if __name__ == "__main__":
+	root = check_root()
+	if root:
+		from __menu__ import main
+		Deauthy = main.Deauthy()
+		try:
+			Deauthy.main()
+		except UnboundLocalError:
+			exit()
+		except KeyboardInterrupt:
+			exit()
+	else:
+		print(Fore.RED + "[!] Run it as root !")
+		print(Fore.YELLOW + "[-] Use 'sudo bash Deauthy' or 'sudo ./Deauthy' or 'sudo python3 Deauthy'")
+		print(Fore.YELLOW + "Exiting...")
+		exit()
