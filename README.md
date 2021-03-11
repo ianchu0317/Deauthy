@@ -12,7 +12,7 @@ ____
 
 ### Instalation
 clone the repository
-> git clone 
+> git clone https://github.com/ianchu0317/Deauthy.git
 
 
 > cd Deauthy
